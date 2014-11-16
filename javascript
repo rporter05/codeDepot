@@ -69,3 +69,10 @@ var sleepCheck = function (numHours) {
 sleepCheck(10);
 sleepCheck(5);
 sleepCheck(8);
+
+
+//for loops
+// this counts down from 100 to 0 by 5 but doesnt include 0
+for (i=100; i>0; i-=5) {
+    console.log(i);
+}
